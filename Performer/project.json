@@ -1,0 +1,106 @@
+{
+  "name": "SmartStructuredDoc AI",
+  "projectId": "2743ebe3-9360-4992-ab3b-b262d66636de",
+  "description": "SmartStructuredDoc AI is an automated document processing solution built using UiPath and AI-based classification. It intelligently handles Invoices, Purchase Orders, Bank Statements, Resumes, and Contracts, extracting structured data from each document type. The solution uses a Dispatcher-Performer architecture: the Dispatcher adds documents to queues, and the Performer classifies, extracts data, and stores it in DataTables, which are written to separate sheets of a single Excel file. This appr",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.Activities": "[2.17.2]",
+    "UiPath.Excel.Activities": "[3.4.0-preview]",
+    "UiPath.GSuite.Activities": "[3.7.10]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.7.10]",
+    "UiPath.System.Activities": "[26.2.0]",
+    "UiPath.Testing.Activities": "[25.10.0]",
+    "UiPath.UIAutomation.Activities": "[26.1.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "26.0.187.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "75c6704e-cbcd-4602-afd9-8c89d4b25b85",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "000d3f9e-bb44-4b58-99fd-82a0704ed1c9",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7b63d438-6a16-41b8-9cbe-49e7cde3d006",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "03172f15-b166-4868-964f-a2a143bcf115",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d8956c60-7373-4479-b959-6530755f7d08",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\ProcessTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6c863815-0cb2-4e73-abc9-b8235e062d60",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "6b4b833a-35ec-4202-afbb-0f01ccc56607",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
