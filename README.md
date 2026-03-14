@@ -52,7 +52,3 @@ Invoice
 3. Due Date
 4. Date of issue
 5. Amount Due 
-
-Date of Issue
-
-Amount Due
