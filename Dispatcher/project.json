@@ -1,0 +1,57 @@
+{
+  "name": "SmartStructuredDoc AI_Dispatcher",
+  "projectId": "e833fb78-63f0-45fc-b943-f4ba951849a4",
+  "description": "SmartStructuredDoc AI is an automated document processing solution built using UiPath and AI-based classification. It intelligently handles Invoices, Purchase Orders, Bank Statements, Resumes, and Contracts, extracting structured data from each document type. The solution uses a Dispatcher-Performer architecture: the Dispatcher adds documents to queues, and the Performer classifies, extracts data, and stores it in DataTables, which are written to separate sheets of a single Excel file. This appr",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[25.12.2]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "26.0.187.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "732ce16a-32dd-4888-95e7-d71e794c81ab",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

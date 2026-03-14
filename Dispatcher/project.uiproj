@@ -1,0 +1,6 @@
+{
+  "Name": "SmartStructuredDoc AI_Dispatcher",
+  "ProjectType": "Process",
+  "Description": "SmartStructuredDoc AI is an automated document processing solution built using UiPath and AI-based classification. It intelligently handles Invoices, Purchase Orders, Bank Statements, Resumes, and Contracts, extracting structured data from each document type. The solution uses a Dispatcher-Performer architecture: the Dispatcher adds documents to queues, and the Performer classifies, extracts data, and stores it in DataTables, which are written to separate sheets of a single Excel file. This appr",
+  "MainFile": "Main.xaml"
+}
